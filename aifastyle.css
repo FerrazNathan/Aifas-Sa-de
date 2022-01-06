@@ -1,0 +1,621 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    width: 1140px;
+    height: 759px;
+    margin: auto;
+}
+
+.navigation ul{
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    background-color: #333333;
+    padding: 10px 100px;
+}
+
+.navigation-lista a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.navigation-lista a:hover{
+    font-weight: bold;
+    color: #ffffff;
+    height: 18px;
+    text-decoration: underline;
+}
+
+.banner-logo{
+    width: 1140px;
+    height: 759px;
+    margin: auto;
+    position: relative;
+}
+
+.img-logo{
+    position: absolute;
+    top: 50px;
+    left: 125px;
+}
+
+.text-header{
+    position: absolute;
+    top: 290px;
+    width: 510px;
+    height: 190px;
+    background-image: url(./images/glass.png);
+}
+
+.text-header h1{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: bold;
+    color: #25687f;
+    margin-bottom: 10px;
+    text-shadow: 3px 0 3px #f7fcfc;
+    margin-left: 30px;
+    background-color: unset;
+    margin-top: 20px;
+}
+
+.text-header p{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 30px;
+    width: 440px;
+}
+
+.all-img{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    top: 596px;
+}
+
+.first-img{
+    background-image: url(./images/card-1-banner.png);
+    width: 345px;
+    height: 331px;
+    margin: 0 10px 0 30px;
+}
+
+.first-img p{
+    font-size: 26px;
+    text-shadow: 2px 0 3px rgba(0,0,0,.5);
+    color: white;
+    text-transform: uppercase;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    line-height: 1.1;
+    margin: 45px 0 0 42px;
+}
+
+.span-first{
+    font-size: 16px;
+    text-shadow: 2px 0 3px rgba(0,0,0,.5);
+    color: white;
+    text-transform: uppercase;
+}
+
+.second-span{
+    font-size: 33px;
+    text-shadow: 2px 0 3px rgba(0,0,0,.5);
+    color: #90f20e;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 265px;
+    margin-top: 10px;
+}
+
+.second-img{
+    background-image: url(./images/card-2-banner.png);
+    width: 343px;
+    height: 331px;
+    margin: 0 20px 0 15px;
+}
+
+.second-img h2{
+    text-transform: uppercase;
+    font-size: 29px;
+    color: #0ba09f;
+    text-shadow: 3px 0 3px #f7fcfc;
+    margin: 20px 0 0 20px;
+    width: 200px;
+}
+
+.span-three{
+    text-shadow: 3px 0 3px #f7fcfc;
+    text-transform: uppercase;
+    font-size: 39px;
+    font-weight: bold;
+    color: #e4097d;
+}
+
+.second-img p{
+    width: 190px;
+    font-size: 13px;
+    margin: 5px 0px 0 23px;
+}
+
+.principal{
+    background-image: url(../aifas/images/background-correto.png);
+    width: 1140px;
+    margin: auto;
+    height: 300px;
+    margin-top: 230px;
+    position: relative;
+}
+
+.main-principal{
+    display: flex;
+    width: 1140px;
+    margin: auto;
+    justify-content: center;
+    position: absolute;
+    margin-top: 75px;
+    height: 350px;
+}
+
+.plano-bronze{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    width: 260px;
+    position: relative;
+}
+
+.first-img-bronze{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    padding: 40px 0 20px 0;
+}
+
+.first-img-bronze img{
+    position: absolute;
+    margin-top: -80px;
+}
+
+.first-img-bronze h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.first-text{
+    background-color: #ffffff;
+    padding: 30px 15px;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.odontologic{
+    display: flex;
+    justify-content: space-between;
+    width: 134px;
+}
+
+.consultas{
+    display: flex;
+    justify-content: space-between;
+    width: 175px;
+}
+
+.plano-familia{
+    display: flex;
+    justify-content: space-between;
+    width: 134px;
+}
+
+.cirurgias{
+    display: flex;
+    justify-content: space-between;
+    width: 98px;
+}
+
+.plano-vitalicio{
+    display: flex;
+    justify-content: space-between;
+    width: 137px;
+}
+
+.desconto{
+    display: flex;
+    justify-content: space-between;
+    width: 137px;
+}
+
+.plano-prata{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    width: 260px;
+    position: relative;
+}
+
+.second-img-prata{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    padding: 40px 0 20px 0;
+}
+
+.second-img-prata img{
+    position: absolute;
+    margin-top: -80px;
+}
+
+.second-img-prata h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.second-text{
+    background-color: #ffffff;
+    padding: 30px 15px;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plano-ouro{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    width: 260px;
+    position: relative;
+}
+
+.third-img-ouro{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    padding: 40px 0 20px 0;
+}
+
+.third-img-ouro img{
+    position: absolute;
+    margin-top: -80px;
+}
+
+.third-img-ouro h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.third-text{
+    background-color: #ffffff;
+    padding: 30px 15px;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.plano-diamante{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #CCCCCC;
+    width: 260px;
+    position: relative;
+}
+
+.four-img-diamante{
+    border-bottom: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333333;
+    padding: 40px 0 20px 0;
+}
+
+.four-img-diamante img{
+    position: absolute;
+    margin-top: -80px;
+}
+
+.four-img-diamante h2{
+    text-transform: uppercase;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: arial;
+}
+
+.four-text{
+    background-color: #ffffff;
+    padding: 30px 15px;
+    font-weight: bold;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.nav-button{
+    display: flex;
+    width: 1055px;
+    margin: auto;
+    margin-top: 170px;
+    justify-content: space-between;
+    height: 315px;
+}
+
+.button-trip button{
+    border: none;
+    background-color: white;
+}
+
+.button-trip img{
+    width: 325px;
+    cursor: pointer;
+}
+
+.button-trip img:hover{
+    width: 320px;
+    border: 1px solid green;
+    transition: all .8s ease;
+}
+
+.button-contabil a{
+    text-decoration: none;
+}
+
+.button-contabil img{
+    width: 325px;
+    cursor: pointer;
+}
+
+.button-contabil img:hover{
+    width: 330px;
+    border: 1px solid green;
+    transition: all .3s ease;
+}
+
+.button-contabil button{
+    border: none;
+    background-color: white;
+}
+
+.contabilidade{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    border: none;
+}
+
+.contabilidade h3{
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 28px;
+    margin-top: -80px;
+    margin-right: 10px;
+}
+
+.contabilidade p{
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 13px;
+    margin-right: 16px;
+    margin-top: 10px;
+}
+
+.button-juridic img{
+    width: 325px;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.button-juridic img:hover{
+    width: 330px;
+    border: 1px solid green;
+}
+
+.button-juridic button{
+    border: none;
+    background-color: white;
+}
+
+.partners{
+    width: 1055px;
+    margin: auto;
+    margin-top: 100px;
+    height: 240px;
+}
+
+.img-descontos h3{
+    margin-top: -35px;
+    margin-bottom: 60px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 22px;
+    margin-left: 15px;
+}
+
+.partners-principal{
+    display: flex;
+    width: 1055px;
+    justify-content: space-between;
+    height: 150px;
+}
+
+.fast{
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.fast:hover{
+    width: 200px;
+    height: 160px;
+    border: 1px solid green;
+}
+
+.fast:active{
+    border: 1px solid black;
+}
+
+.fast img{
+    border-radius: 10px;
+    width: 180px;
+    height: 140px;
+}
+
+.saojudas{
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.saojudas:hover{
+    width: 200px;
+    height: 160px;
+    border: 1px solid green;
+}
+
+.saojudas:active{
+    border: 1px solid black;
+}
+
+.saojudas img{
+    border-radius: 10px;
+    width: 180px;
+    height: 140px;
+}
+
+.hotpark{
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.hotpark:hover{
+    width: 200px;
+    height: 160px;
+    border: 1px solid green;
+}
+
+.hotpark:active{
+    border: 1px solid black;
+}
+
+.hotpark img{
+    border-radius: 10px;
+    width: 180px;
+    height: 140px;
+}
+
+.saraiva{
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    background-color: #ffdd00;
+    cursor: pointer;
+}
+
+.saraiva:hover{
+    width: 200px;
+    height: 160px;
+    border: 1px solid green;
+}
+
+.saraiva:active{
+    border: 1px solid black;
+}
+    
+.saraiva img{
+    border-radius: 10px;
+    width: 180px;
+    height: 140px;
+}
+
+.microlins{
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.microlins:hover{
+    width: 200px;
+    height: 160px;
+    border: 1px solid green;
+}
+
+.microlins:active{
+    border: 1px solid black;
+}
+
+.microlins img{
+    border-radius: 10px;
+    width: 180px;
+    height: 140px;
+}
+
+footer{
+    width: 1140px;
+    margin: auto;
+    height: 240px;
+    background-color: #333333;
+    margin-top: 100px;
+}
+
+.footer-principal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-footer p{ 
+    color: #f1f1f1;
+    width: 820px;
+    font-style: italic;
+    margin: 20px;
+    font-size: 15px;
+    line-height: 1.1;
+}
+
+.contato-footer p{
+    color: #f1f1f1; 
+    margin: 20px 0 10px 0; 
+    line-height: 1.2;
+    font-size: 14px;
+    margin-right: 60px;
+}
+
+.fale{
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.number{
+    color: #30a2c8;
+    font-size: 26px;
+    font-weight: bold;
+}
